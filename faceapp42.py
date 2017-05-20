@@ -1,3 +1,4 @@
+
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import requests,redis,sys
@@ -12,7 +13,7 @@ sys.setdefaultencoding("utf-8")
 # Channel : @MagicNews
 
 redis = redis.StrictRedis(host='localhost', port=6379, db=0)
-token = "XXX" #Token Bot
+token = ""XXX" #Token Bot
 admin =  #ID Admin
 channel =  #Channel ID
 bot = TeleBot(token)
